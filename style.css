@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body{
+    background-color: rgb(245, 247, 255) ;
+    width: 80%;
+    margin: auto;
+}
+
+.logo{
+    width: 6rem;
+}
+
+nav{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: rgb(245, 247, 255) ;
+}
+
+.subnav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    
+}
+
+ul{
+    gap: 5rem;
+    display: grid;
+    grid-auto-flow: column;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+.hpa{
+    width: 50%;
+    gap: 4;
+    line-height: 1.2;
+}
+
+h1{
+    font-size: 50px;
+    width: 50%;
+    font-weight: 900;
+}
+.p{
+    width: 70%;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.waitlist {
+    padding: 1rem 2.5rem;
+    background-color: rgb(104, 104, 218);
+    border-radius: 30px;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;    
+    margin:  25% auto 0;
+}
+
+.hd{
+    width: 50%;
+}
+
+.move{
+    margin-top: 20%;
+    margin-bottom: 5%;
+}
+
+.bbc{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    width: auto;
+    padding: 0;
+}
+.wf{
+        text-align: center;
+}
+.wp{
+    width: 100%;
+    padding: 5%;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+h4{
+    padding: 0 20px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+}
+.lol{
+    display: flex;
+    justify-content: space-between;
+    gap: 4;
+    margin: 14px auto 0;
+    align-items: center;
+}
+
+.one{
+    text-align: center;
+    width: 32%;
+    background-color: rgb(247, 240, 255);
+}
+
+img{
+    padding-top: 20px;
+    width: 12rem;
+}
+
+.wto{
+    text-align: center;
+    padding: 30px;
+}
+
+.two{
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+
+}
+
+p{  
+    line-height: 1.4;
+    font-size: 13px;
+}
+
+.hp2{
+    width: 30%;
+    line-height: 1;
+    text-align: left;
+
+}
+
+.img2{
+    margin: 0 50px;
+    width: 24rem;
+}
