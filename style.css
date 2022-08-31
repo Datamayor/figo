@@ -8,7 +8,7 @@
 
 body{
     background-color: rgb(245, 247, 255) ;
-    width: 80%;
+    width: 1568px;
     margin: auto;
 }
 
@@ -28,7 +28,7 @@ nav{
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 1500px;
     
 }
 
@@ -121,7 +121,7 @@ h4{
 
 .one{
     text-align: center;
-    width: 32%;
+    width: 470px;
     background-color: #eceeff;
 }
 
@@ -141,14 +141,17 @@ img{
     place-items: center;
 
 }
-
+.two:nth-of-type(odd){
+    flex-direction: row-reverse;
+    margin: 0 100px;
+}
 p{  
     line-height: 1.4;
     font-size: 13px;
 }
 
 .hp2{
-    width: 30%;
+    width: 300px;
     line-height: 1;
     text-align: left;
 
@@ -173,10 +176,61 @@ h6{
 }
 .fqa{
     text-align: left;
-    width: 50%;
+    width: 700px;
     margin: 0 auto;
     
     display: flex;
     flex-direction: column;
     gap: 14px;
+}
+
+.empty{
+    position: absolute;
+    left: 230px;
+    top: -60px;
+    background-color: #7aa1fc;
+    height: 400px;
+    width: 800px;
+    z-index: -1; 
+}
+
+
+
+.input{
+    text-align: center;
+    background-color: #eceeff;
+    height: 500px;
+    width: 950px;
+    margin: 150px auto ;
+    
+}
+
+h5{
+    margin-bottom: 10px;
+    margin-top: 6px ;
+}
+
+.jayson{
+    padding-top: 100px;
+    margin: 0;
+    padding-bottom: 0;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+form{
+    padding-bottom: 30px;
+}
+
+.kk{
+    position: relative;
+}
+
+.three{
+    width: 500px;
+    border-radius: 9px;
+    padding: 17px;
+    margin-bottom: 15px;
+    gap: 10px;
+    border: 1px solid  black;
 }
