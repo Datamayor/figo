@@ -8,8 +8,13 @@
 
 body{
     background-color: rgb(245, 247, 255) ;
-    width: 1568px;
+    width: 100%;
     margin: auto;
+}
+
+.container{
+     max-width: 1530px;
+     margin: auto;
 }
 
 .logo{
@@ -75,7 +80,7 @@ h1{
 header{
     display: flex;
     justify-content: space-between;    
-    margin:  25% auto 0;
+    margin:  15% auto 0;
 }
 
 .hd{
@@ -114,14 +119,14 @@ h4{
 .lol{
     display: flex;
     justify-content: space-between;
-    gap: 4;
+    gap: 1px;
     margin: 14px auto 0;
     align-items: center;
 }
 
 .one{
     text-align: center;
-    width: 470px;
+    width: 497px;
     background-color: #eceeff;
 }
 
@@ -143,7 +148,7 @@ img{
 }
 .two:nth-of-type(odd){
     flex-direction: row-reverse;
-    margin: 0 100px;
+    margin: 0 300px 0 100px;
 }
 p{  
     line-height: 1.4;
@@ -168,7 +173,7 @@ p{
     
 }
 
-h6{
+.h6{
     background-color:#eff2ff;
     padding: 20px;
     font-size: 20px;
@@ -233,4 +238,34 @@ form{
     margin-bottom: 15px;
     gap: 10px;
     border: 1px solid  black;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    color: white;
+}
+
+.fcm{
+    /* max-width: ; */
+}
+
+.footer-container .fcm img {
+    object-fit: contain;
+    height: 41px;
+    width: 96px;
+}
+
+footer{
+    background-color: #010932;
+    width: 100%;
+}
+
+.cu,.em{
+    margin: 7px;
+}
+
+.fig {
+    max-width: 400px;
 }
