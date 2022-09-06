@@ -12,6 +12,10 @@ body{
     margin: auto;
 }
 
+.ham{
+   display: none;
+}
+
 .container{
      max-width: 1330px;
      margin: auto;
@@ -278,190 +282,6 @@ footer{
     max-width: 400px;
 }
 
-
-@media screen and (max-width: 1000px) {
-
-    
-    .container{
-        max-width: 650px;
-         margin: auto;
-    }
-    
-    .logo{
-        width: 6rem;
-    }
-    
-    nav{
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
-        background-color: rgb(245, 247, 255) ;
-    }
-    
-    .subnav {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        margin-left: auto;
-        margin-right: auto;
-        width: 650px;
-        
-    }
-    
-    ul{
-       display: none;
-    }
-    
-    .hpa{
-        gap: 4;
-        width: 100%;
-        line-height: 1.2;
-    }
-    
-    h1{
-        font-size: 40px;
-        font-weight: 900;
-    }
-    .p{
-        width: 70%;
-        font-size: 15px;
-        font-weight: 500;
-    }
-
-    .waitlist2 {
-        padding: 1rem 2.5rem;
-        background-color: rgb(104, 104, 218);
-        border-radius: 30px;
-        color: white;
-        border: none;
-        font-size: 16px;
-    }
-    
-    .waitlist {
-       display: none;
-    }
-    
-    header{
-        display: block;
-        align-items: center;
-    }
-    
-    .hd{
-        width: 100%;
-    }
-    
-    .move{
-        margin-top: 20%;
-        margin-bottom: 5%;
-    }
-    
-    .bbc{
-     display: none;
-    }
-    .wf{
-            text-align: center;
-    }
-    .wp{
-        width: 100%;
-        padding: 5%;
-        font-size: 30px;
-        font-weight: 900;
-    }
-    
-    h4{
-        padding: 0 20px;
-        text-align: left;
-        font-size: 20px;
-        font-weight: 500;
-    }
-    .lol{
-        display: block;
-        gap: 1px;
-        margin: 14px auto 0;
-        align-items: center;
-    }
-    
-    .one{
-        text-align: center;
-        width: 670px;
-        height: 500px;
-        background-color: #eceeff;
-    }
-    
-    img{
-        width: 17rem;
-    }
-    
-    .wto{
-        text-align: center;
-        padding: 30px;
-    }
-    
-    .two{
-        display: block;
-        place-items: center;
-
-    
-    }
-    .two:nth-of-type(odd){
-        flex-direction: row-reverse;
-        margin: 0px;
-    }
-    p{  
-        line-height: 1.4;
-        font-size: 13px;
-    }
-    
-    .hp2{
-        width: 550px;
-        line-height: 1;
-    }
-    
-    .img2{
-        width: 28rem;
-    }
-    
-    .Fqa{
-        text-align: center;
-        padding: 29px;
-        
-    }
-   
-        
-    .empty{
-        left: 51px;
-        top: -14px;
-        height: 400px;
-        width: 500px;
-    }
-    
-    
-    
-    .input{
-        text-align: center;
-        background-color: #eceeff;
-        height: 500px;
-        width: 500px;
-        margin: 150px auto ;     
-    }
-    .fqa{
-        width: 600px;
-    }
-
-
-    .jayson{
-        padding-top: 100px;
-        margin: 0;
-        padding-bottom: 0;
-        font-size: 40px;
-        font-weight: 500;
-    }
-
-    
-    .three{
-        width: 370px;
-    }
-}
-
 @media screen and (max-width: 1500px) {
     .container{
         max-width: 950px;
@@ -603,3 +423,199 @@ footer{
    
 }
 
+
+
+@media screen and (max-width: 1000px) {
+
+    
+    .container{
+        max-width: 650px;
+         margin: auto;
+    }
+    
+    .logo{
+        width: 6rem;
+    }
+    
+    nav{
+        margin: 0 auto;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        background-color: rgb(245, 247, 255) ;
+    }
+
+    .ham2{
+      display: flex;
+      gap: 300px;
+      justify-content: space-between;
+    }
+    .ham{
+        display: block;
+        width: 40px;
+    }
+    
+    .subnav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 650px;
+        
+    }
+    
+    ul{
+       display: none;
+    }
+    
+    .hpa{
+        gap: 4;
+        width: 100%;
+        line-height: 1.2;
+    }
+    
+    h1{
+        font-size: 40px;
+        font-weight: 900;
+    }
+    .p{
+        width: 70%;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .waitlist2 {
+        padding: 1rem 2.5rem;
+        background-color: rgb(104, 104, 218);
+        border-radius: 30px;
+        color: white;
+        border: none;
+        font-size: 16px;
+    }
+    
+    .waitlist {
+       display: none;
+    }
+    
+    header{
+        display: block;
+        align-items: center;
+    }
+    
+    .hd{
+        width: 100%;
+    }
+    
+    .move{
+        margin-top: 20%;
+        margin-bottom: 5%;
+    }
+    
+    .bbc{
+     display: none;
+    }
+    .wf{
+            text-align: center;
+    }
+    .wp{
+        width: 100%;
+        padding: 5%;
+        font-size: 30px;
+        font-weight: 900;
+    }
+    
+    h4{
+        padding: 0 20px;
+        text-align: left;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .lol{
+        display: block;
+        gap: 1px;
+        margin: 14px auto 0;
+        align-items: center;
+    }
+    
+    .one{
+        text-align: center;
+        width: 600px;
+        margin-bottom: 8px;
+        height: 450px;
+        background-color: #eceeff;
+    }
+    
+    img{
+        width: 17rem;
+    }
+    
+    .wto{
+        text-align: center;
+        padding: 30px;
+    }
+    
+    .two{
+        display: block;
+        place-items: center;
+
+    
+    }
+    .two:nth-of-type(odd){
+        flex-direction: row-reverse;
+        margin: 0px;
+    }
+    p{  
+        line-height: 1.4;
+        font-size: 13px;
+    }
+    
+    .hp2{
+        width: 550px;
+        line-height: 1;
+    }
+    
+    .img2{
+        width: 28rem;
+    }
+    
+    .Fqa{
+        text-align: center;
+        padding: 29px;
+        
+    }
+   
+        
+    .empty{
+        left: 51px;
+        top: -14px;
+        height: 400px;
+        width: 500px;
+    }
+    
+    
+    
+    .input{
+        text-align: center;
+        background-color: #eceeff;
+        height: 500px;
+        width: 500px;
+        margin: 150px auto ;     
+    }
+    .fqa{
+        width: 600px;
+    }
+
+
+    .jayson{
+        padding-top: 100px;
+        margin: 0;
+        padding-bottom: 0;
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    
+    .three{
+        width: 370px;
+    }
+}
