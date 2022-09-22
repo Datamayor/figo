@@ -768,11 +768,12 @@ form {
     display: flex;
     justify-content: center;
     gap: 35px;
-    color: white
+    color: white;
+    width: 400px;
   }
   footer{
     background-color: #010932;
-    width: 100%;
+    width: 150%;
   }
   .footer-img {
     object-fit: contain;
