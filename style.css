@@ -616,12 +616,12 @@ form {
   }
   
   .thpa {
-    width: 300px;
+    width: 360px;
     margin: 0 auto;
   }
 
   .hpa{
-    width: 280px;
+    width: 350px;
     margin: 0 auto;
   }
 
@@ -768,11 +768,12 @@ form {
     display: flex;
     justify-content: center;
     gap: 35px;
-    color: white;
-    background-color: #010932;
-    width: 400px;
+    color: white
   }
-  
+  footer{
+    background-color: #010932;
+    width: 100%;
+  }
   .footer-img {
     object-fit: contain;
     height: 41px;
