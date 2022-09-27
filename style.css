@@ -765,7 +765,7 @@ form {
   }
 
   .footer-container {
-    display: flex;
+    display: block;
     justify-content: center;
     gap: 35px;
     color: white;
@@ -773,7 +773,7 @@ form {
   }
   footer{
     background-color: #010932;
-    width: 150%;
+    width: 100%;
   }
   .footer-img {
     object-fit: contain;
@@ -782,28 +782,33 @@ form {
   }
 
   .fcm{
-    width: 90px;
+    width: 300px;
     margin: 0 auto;
   }
 
   .text6{
-   font-size: 8px;
+   font-size: 14px;
+   margin: 7px;
   }
   .text7{
-    font-size: 8px;
+    font-size: 14px;
+    margin: 7px;
   }
   .text8{
-    font-size: 15px;
+    font-size: 29px;
+    margin: 8px;
   }
   .text9{
-    font-size: 8px;
-    width: 80px;
+    font-size: 13px;
+    width: 300px;
+    margin: 4px;
   }
   
   
   .text5 {
     font-size: 7px;
-    width: 90px;
+    width: 300px;
+    margin: 4px;
   }
 
 
