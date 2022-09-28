@@ -777,44 +777,50 @@ form {
   }
   .footer-img {
     object-fit: contain;
-    height: 30px;
-    width: 36px;
+    height: 60px;
+    width: 60px;
+    padding-top: 30px;
     margin-left: 6px;
+    margin-bottom: 20px
   }
 
   .fcm{
     width: 300px;
-    margin: 0 auto;
+    margin-left: 8px;
     padding-bottom: 20px;
   }
 
   .text6{
-   font-size: 14px;
+   font-size: 16px;
    margin: 7px;
   }
   .text7{
-    font-size: 14px;
+    font-size: 16px;
     margin: 7px;
   }
   .text8{
     font-size: 24px;
     margin: 8px;
+    margin-left: 0;
+    margin-bottom: 30px;
   }
   .text9{
-    font-size: 13px;
+    font-size: 16px;
     width: 300px;
-    margin: 4px;
+    margin-bottom: 4px;
   }
   
   
   .text5 {
-    font-size: 12px;
+    font-size: 16px;
     width: 300px;
     margin: 4px;
+    margin-bottom: 25px;
+    line-height: 28px;
   }
 
   .text19{
-    font-size: 13px;
+    font-size: 16px;
     width: 300px;
     margin: 4px;
     padding-bottom: 10px;
