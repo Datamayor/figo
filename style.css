@@ -777,13 +777,15 @@ form {
   }
   .footer-img {
     object-fit: contain;
-    height: 41px;
-    width: 96px;
+    height: 30px;
+    width: 36px;
+    margin-left: 6px;
   }
 
   .fcm{
     width: 300px;
     margin: 0 auto;
+    padding-bottom: 20px;
   }
 
   .text6{
@@ -795,7 +797,7 @@ form {
     margin: 7px;
   }
   .text8{
-    font-size: 29px;
+    font-size: 24px;
     margin: 8px;
   }
   .text9{
@@ -806,9 +808,16 @@ form {
   
   
   .text5 {
-    font-size: 7px;
+    font-size: 12px;
     width: 300px;
     margin: 4px;
+  }
+
+  .text19{
+    font-size: 13px;
+    width: 300px;
+    margin: 4px;
+    padding-bottom: 10px;
   }
 
 
