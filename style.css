@@ -590,7 +590,7 @@ form {
 
 @media screen and (max-width: 600px) {
   body {
-    max-width: 500px;
+    max-width: 80%;
     margin: 0 auto;
   }
 
@@ -599,7 +599,7 @@ form {
   }
 
   .ham2 {
-    gap: 240px;
+    gap: 350%px;
   }
   .ham {
     display: block;
@@ -607,7 +607,7 @@ form {
   }
 
   .subnav {
-    width: 380px;
+    width: 80%;
   }
 
   .text13{
