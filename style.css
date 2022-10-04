@@ -618,12 +618,12 @@ form {
   }
   
   .thpa {
-    width: 360px;
+    width: 95%;
     margin: 0 auto;
   }
 
   .hpa{
-    width: 350px;
+    width: 100%;
     margin: 0 auto;
   }
 
@@ -647,7 +647,7 @@ form {
   }
 
   .hd {
-    width: 300px;
+    width: 90%;
     margin: 0 auto;
   }
   .move {
@@ -753,8 +753,8 @@ form {
     width: 95%;
   }
   .fqa {
-    width: 350px;
-    margin: 0;
+    width: 95%;
+    margin: 0 auto;
   }
 
   .div{
@@ -822,14 +822,14 @@ form {
   }
   .text9{
     font-size: 16px;
-    width: 300px;
+    width: 80%;
     margin-bottom: 4px;
   }
   
   
   .text5 {
     font-size: 16px;
-    width: 100%;
+    width: 80%;
     margin: 4px;
     margin-bottom: 25px;
     line-height: 28px;
@@ -837,7 +837,7 @@ form {
 
   .text19{
     font-size: 16px;
-    width: 300px;
+    width: 80%;
     margin: 4px;
     padding-bottom: 10px;
   }
