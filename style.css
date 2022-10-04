@@ -590,7 +590,7 @@ form {
 
 @media screen and (max-width: 600px) {
   body {
-    max-width: 80%;
+    max-width: 100%;
     margin: 0 auto;
   }
 
@@ -706,7 +706,7 @@ form {
   }
 
   .text12{
-    width: 300px;
+    width: 90%;
   }
 
   .two {
@@ -724,15 +724,18 @@ form {
   }
 
   .hp2 {
-    width: 380px;
+    width: 100%;
     line-height: 1;
   }
 
   .img2 {
     width: 80%;
+    margin: 0;
+    padding: 0;
   }
 
   .Fqa {
+    width: 100%;
     font-size: 20px;
     text-align: center;
     padding: 29px;
@@ -751,6 +754,15 @@ form {
   }
   .fqa {
     width: 350px;
+    margin: 0;
+  }
+
+  .div{
+    width: 100%;
+  }
+  .h6{
+    width: 100%;
+    padding-left: 0;
   }
 
   .jayson {
