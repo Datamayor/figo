@@ -604,6 +604,9 @@ form {
   }
 
   .ham2 {
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 30px;
     gap: 100px ;
 
   }
@@ -637,7 +640,7 @@ form {
     width: 380px;
   }
   .p {
-    width: 270px;
+    width: 90%;
     font-size: 12px;
   }
 
