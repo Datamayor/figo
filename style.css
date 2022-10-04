@@ -600,8 +600,8 @@ form {
 
   .ham2 {
     gap: 90%;
-    width: 90%;
-    margin: auto;
+    width: 70%;
+    margin: 0  auto;
   }
   .ham {
     display: block;
@@ -742,15 +742,15 @@ form {
   }
 
   .empty {
-    left: 17px;
+    left: -2%;
     top: -23px;
     height: 320px;
-    width: 320px;
+    width: 90%;
   }
 
   .input {
     height: 350px;
-    width: 330px;
+    width: 95%;
   }
   .fqa {
     width: 350px;
@@ -768,10 +768,11 @@ form {
 
   .jayson {
     padding-top: 40px;
+    font-size: 30px;
   }
 
   .three {
-    width: 280px;
+    width: 80%;
     padding: 8px;
   }
   
@@ -784,7 +785,7 @@ form {
     justify-content: center;
     gap: 35px;
     color: white;
-    width: 390px;
+    width: 100%;
   }
   footer{
     background-color: #010932;
@@ -828,7 +829,7 @@ form {
   
   .text5 {
     font-size: 16px;
-    width: 300px;
+    width: 100%;
     margin: 4px;
     margin-bottom: 25px;
     line-height: 28px;
